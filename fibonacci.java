@@ -1,8 +1,7 @@
 import java.util.Scanner;
 
-class fibonacci{
-
-	public static void fibonacci1(int n){
+class fibonacci {
+	public static void fibonacci1(int n) {
 		int a=0,b=1,temp=0,i;
 		String fib;
 		for(i=0;i<=n;i++){
@@ -10,8 +9,8 @@ class fibonacci{
 			b=temp;
 			temp=a+b;
 			System.out.print(temp+" ");
+		}
 	}
-}
 	public static void main(String[] args) {
 		Scanner input = new Scanner(System.in);
 		int n,a=0,b=1;
@@ -19,5 +18,5 @@ class fibonacci{
 		n = input.nextInt();
 		System.out.print(a+" ");
 		fibonacci1(n-2);
-}
+	}
 }
