@@ -1,14 +1,14 @@
 import java.util.Scanner;
 
 class gcd {
-	public static int gcd1(int m,int n){
+	public static int gcd1(int m,int n) {
 		int a=0,temp=0,i,r=0;
 		if (m ==0 ){
 			return n;
-		} else if (n == 0){
+		} else if (n == 0) {
 			return m;
 		}
-		while(true){
+		while(true) {
 			r= m%n;
 			if(r==0){
 				return n;
